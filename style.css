@@ -1,0 +1,151 @@
+body {
+  font-family: sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#title a {
+  color: white;
+}
+
+#title a:hover {
+  color: red;
+}
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  opacity: 0.8;
+  z-index: 10;
+  top: 0;
+}
+
+#navigation {
+  margin: auto;
+  display: inline;
+}
+
+#navigation li {
+  display: inline;
+  padding: 15px;
+}
+
+#navigation a {
+  color: green;
+}
+
+#navigation a:hover {
+  color: orange;
+  display: inline;
+}
+
+.pizzaFond img {
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+}
+
+.jumbotron {
+  margin-left: auto;
+  text-align: center;
+  background-color: #e8eaed;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.row {
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  padding: 25px;
+}
+
+#newspromo {
+  padding: 50px;
+}
+
+#imgHome {
+  padding: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#goTop {
+  height: 50px;
+  width: 50px;
+  border-radius: 35px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0.5;
+}
+
+#goTop:hover {
+  opacity: 1;
+}
+
+/* SECTION Carte */
+
+#carte {
+  background-color: black;
+  background-image: radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  color: white;
+  border-radius: 15PX;
+  padding-bottom: 50px;
+}
+
+.container {
+  padding-top: 25px;
+}
+
+#carte_vert {
+  color: #00CC66;
+}
+
+#carte_rouge {
+  color: #FF3333;
+}
+
+/* SECTION PHOTOS */
+
+.row img {
+  max-width: 30%;
+  min-width: 20%
+}
+
+#photos02 {
+  display: none;
+}
+
+#photos03 {
+  display: none;
+}
+
+.pagination {
+  width: 100px;
+  margin: auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.pagination button {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+
+.photos {
+  margin-bottom: 150px;
+}
+
+.merci {
+  margin: auto;
+  text-align: center;
+}

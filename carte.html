@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-header" id="title">
+        <a class="navbar-brand" href="#">Pizza Time</a>
+      </div>
+      <ul class="nav navbar-nav" id="navigation">
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="carte.html">Carte</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="jumbotron">
+    <h1>Notre carte.</h1>
+  </div>
+
+
+  <div class="container" id="carte">
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <h2>Pizzas</h2>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <h2>Ingrédients</h2>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <h2>€</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_vert">KEKALOR</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_vert">Chorizo, pimants, wazabi, sauce piquante, merguez</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_vert">11</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        MARGHERITA
+      </div>
+      <div class="col-xs-8 col-md-8">
+        Sauce tomate, mozzarella, basilic, huile d’olive
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light">12</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_rouge">MARINARA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_rouge">Sauce tomate, ail, origan, huile d’olive</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_rouge">12</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_vert">ROMANA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_vert">Sauce tomate, mozzarella, anchois, huile d’olive, origan</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_vert">13</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        4 STAGIONI
+      </div>
+      <div class="col-xs-8 col-md-8">
+        Sauce tomate, mozzarella, jambon cuit, artichauts, champignons, olives noires, huile d’olive
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light">14</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_rouge">4 FORMAGGI</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_rouge">Gorgonzola, mozzarella, fontina, parmesan ou provolone piccante</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_rouge">12</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_vert">SOLE MIO</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_vert">Champignons, jambon, oeuf</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_vert">9.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        SICILIANA
+      </div>
+      <div class="col-xs-8 col-md-8">
+        Câpres, olives, anchois
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light">9</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_rouge">NAPOLETANA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_rouge">Câpres, anchois</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_rouge">8.50</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_vert">NONA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_vert">Jambon</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_vert">7.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        FORESTA
+      </div>
+      <div class="col-xs-8 col-md-8">
+        Champignons, jambon
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light">9</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_rouge">TONNATA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_rouge">Thon, oignons rouges</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_rouge">9.50</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_vert">LA PIZZA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_vert">INGREDIENTS</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_vert">7.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        LA PIZZA
+      </div>
+      <div class="col-xs-8 col-md-8">
+        INGREDIENTS
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light">9</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_rouge">LA PIZZA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_rouge">INGREDIENTS</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_rouge">9.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_vert">LA PIZZA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_vert">INGREDIENTS</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_vert">7.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        LA PIZZA
+      </div>
+      <div class="col-xs-8 col-md-8">
+        INGREDIENTS
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light">9</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_rouge">LA PIZZA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_rouge">INGREDIENTS</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_rouge">9.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_vert">LA PIZZA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_vert">INGREDIENTS</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_vert">7.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        LA PIZZA
+      </div>
+      <div class="col-xs-8 col-md-8">
+        INGREDIENTS
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light">9</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_rouge">LA PIZZA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_rouge">INGREDIENTS</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_rouge">9.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_vert">LA PIZZA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_vert">INGREDIENTS</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_vert">7.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        LA PIZZA
+      </div>
+      <div class="col-xs-8 col-md-8">
+        INGREDIENTS
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light">9</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        <div id="carte_rouge">LA PIZZA</div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div id="carte_rouge">INGREDIENTS</div>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <span class="badge badge-light" id="carte_rouge">9.50</span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="jumbotron">
+    <h1>Nos boissons.</h1>
+  </div>
+
+
+  <div class="container" id="carte">
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <h1>€</h1>
+      </div>
+      <div class="col-xs-3 col-md-3">
+
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <h1>€</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        Coca-Cola
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+      <div class="col-xs-3 col-md-3">
+        Fanta
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        Coca-Cola
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+      <div class="col-xs-3 col-md-3">
+        Fanta
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        Coca-Cola
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+      <div class="col-xs-3 col-md-3">
+        Fanta
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        Coca-Cola
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+      <div class="col-xs-3 col-md-3">
+        Fanta
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        Coca-Cola
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+      <div class="col-xs-3 col-md-3">
+        Fanta
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        Coca-Cola
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+      <div class="col-xs-3 col-md-3">
+        Fanta
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
+        Coca-Cola
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+      <div class="col-xs-3 col-md-3">
+        Fanta
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <span class="badge badge-light">2.50</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row" id="imgHome">
+    <div class="col-xs-6 col-md-6">
+      <img src="img/img-carte.png" class="img-fluid img-thumbnail" alt="pizzas">
+      <figcaption>Elles sont pas belles nos pizzas ?</figcaption>
+    </div>
+    <div class="col-xs-6 col-md-6">
+      <img src="img/img-carte2.png" class="img-fluid img-thumbnail" alt="boissons">
+      <figcaption>Vous avez soif ?</figcaption>
+    </div>
+  </div>
+
+</body>
+
+</html>
