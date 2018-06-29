@@ -1,0 +1,21 @@
+{
+  "short_name": "Pizza Time",
+  "name": "Pizza Time",
+  "icons": [
+    {
+      "src": "img/icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/restaurant-css-framework/index.html",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/restaurant-css-framework/",
+  "theme_color": "#3367D6"
+}
