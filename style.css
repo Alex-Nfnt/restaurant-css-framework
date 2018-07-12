@@ -15,31 +15,10 @@ a:link {
 }
 
 .navbar {
-  width: 100%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
-  opacity: 0.8;
+  width: 100%;
   z-index: 10;
-  top: 0;
-}
-
-#navigation {
-  margin: auto;
-  display: inline;
-}
-
-#navigation li {
-  display: inline;
-  padding: 15px;
-}
-
-#navigation a {
-  color: green;
-}
-
-#navigation a:hover {
-  color: orange;
-  display: inline;
 }
 
 .pizzaFond img {
