@@ -446,6 +446,30 @@
     </div>
   </div>
 
+
+  <footer>
+    <img src="img/goTop.png" alt="goTop" id="goTop" onclick="scrollFunction()">
+  </footer>
+
+  <script type="text/javascript">
+    function scrollFunction() {
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        document.getElementById('goTop').style.display = "block";
+      } else {
+        document.getElementById('goTop').style.display = "none";
+      }
+    };
+
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    goTop.onclick = function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
 </body>
 
 </html>

@@ -75,6 +75,11 @@ h2 {
   margin-bottom: 25px;
 }
 
+#imgHome img {
+  width: 100%;
+  height: 100%;
+}
+
 #goTop {
   height: 50px;
   width: 50px;
@@ -82,7 +87,7 @@ h2 {
   position: fixed;
   bottom: 15px;
   right: 15px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 #goTop:hover {
@@ -115,10 +120,10 @@ h2 {
 
 /* SECTION PHOTOS */
 
-.row img {
+/* .row img {
   max-width: 30%;
   min-width: 20%
-}
+} */
 
 #photos02 {
   display: none;
