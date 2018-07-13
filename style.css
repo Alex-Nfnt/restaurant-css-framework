@@ -100,9 +100,9 @@ h2 {
 
 /* SECTION PHOTOS */
 
-.container {
-  display: inline;
-  width: 100%;
+.row img {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .pagination {
