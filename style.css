@@ -14,11 +14,14 @@ a:link {
   color: red;
 }
 
+#navbar {}
+
 .navbar {
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0px;
   width: 100%;
+  transition: top 0.3s;
   z-index: 10;
 }
 
@@ -26,6 +29,7 @@ a:link {
   width: 100%;
   min-width: 100%;
   height: auto;
+  z-index: -10;
 }
 
 .jumbotron {
