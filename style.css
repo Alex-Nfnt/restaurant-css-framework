@@ -100,17 +100,9 @@ h2 {
 
 /* SECTION PHOTOS */
 
-/* .row img {
-  max-width: 30%;
-  min-width: 20%
-} */
-
-#photos02 {
-  display: none;
-}
-
-#photos03 {
-  display: none;
+.container {
+  display: inline;
+  width: 100%;
 }
 
 .pagination {
@@ -124,10 +116,6 @@ h2 {
   margin-left: 10px;
   background-color: black;
   color: white;
-}
-
-.photos {
-  margin-bottom: 150px;
 }
 
 .merci {
