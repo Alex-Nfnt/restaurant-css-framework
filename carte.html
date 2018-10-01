@@ -8,279 +8,191 @@
   <title>Pizza Time</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" href="img/icon512.png" type="image/png" sizes="16x16">
 </head>
 
+<header>
+  <nav class="navbar opacity navbar-expand-md navbar-dark" id="navbar">
+    <a class="navbar-brand" href="index.html">Pizza Time</a>
+    <button class="navbar-toggler" name="XX" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+      value="XY" aria-label="hamburger">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" class="onmouseover()" href="photos.html" target="_self" title="Films">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" class="onmouseover()" href="carte.html" target="_self" title="Featured movies">Carte</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" class="onmouseover()" href="restaurants.html" target="_self" title="Shop movies">Restaurants</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" class="onmouseover()" href="contact.html" target="_self" title="Contact us">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
 <body>
-  <header>
-    <nav class="navbar opacity navbar-expand-md navbar-dark" id="navbar">
-      <a class="navbar-brand" href="index.html">Pizza Time</a>
-      <button class="navbar-toggler" name="XX" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" value="XY" aria-label="hamburger">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" class="onmouseover()" href="photos.html" target="_self" title="Films">Photos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" class="onmouseover()" href="carte.html" target="_self" title="Featured movies">Carte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" class="onmouseover()" href="restaurants.html" target="_self" title="Shop movies">Restaurants</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" class="onmouseover()" href="contact.html" target="_self" title="Contact us">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
 
   <div class="jumbotron">
     <h1>Notre carte.</h1>
   </div>
 
 
-  <div class="container" id="carte">
+  <div class="container">
     <div class="row">
-      <div class="col-xs-3 col-md-3">
-        <h2>Pizzas</h2>
-        <p id="carte_vert">KEKALOR</p>
-        <p>MARGHERITA</p>
-        <p id="carte_rouge">MARINARA</p>
-
-        <p id="carte_vert">ROMANA</p>
-        <p>4 STAGIONI </p>
-        <p id="carte_rouge">4 FORMAGGI</p>
-
-        <p id="carte_vert">SOLE MIO</p>
-        <p>SICILIANA</p>
-        <p id="carte_rouge">NAPOLETANA</p>
-
-        <p id="carte_vert">NONA</p>
-        <p>FORESTA</p>
-        <p id="carte_rouge">TONNATA</p>
-
-        <p id="carte_vert">KEKALOR</p>
-        <p>MARGHERITA</p>
-        <p id="carte_rouge">MARINARA</p>
-
-        <p id="carte_vert">LA PIZZA</p>
-        <p>LA PIZZA</p>
-        <p id="carte_rouge">LA PIZZA</p>
-
+      <div class="col-md-12">
+        <h3>Nos Pizzas</h3>
       </div>
-      <div class="col-xs-8 col-md-8">
-        <h2>Ingrédients</h2>
-        <p id="carte_vert">Chorizo, pimants, wazabi, sauce piquante, merguez</p>
-        <p>Sauce tomate, mozzarella, basilic, huile d’olive</p>
-        <p id="carte_rouge">Sauce tomate, ail, origan, huile d’olive</p>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">KEKALOR</div>
+      <div class="col-md-8">Chorizo, pimants, wazabi, sauce piquante, merguez</div>
+      <div class="col-md-2">12€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">MARGHERITA</div>
+      <div class="col-md-8">Sauce tomate, mozzarella, basilic, huile d’olive</div>
+      <div class="col-md-2">11€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">MARINARA</div>
+      <div class="col-md-8">Sauce tomate, ail, origan, huile d’olive</div>
+      <div class="col-md-2">10€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">ROMANA</div>
+      <div class="col-md-8">Sauce tomate, mozzarella, anchois, huile d’olive, origan</div>
+      <div class="col-md-2">11€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">4 STAGIONI </div>
+      <div class="col-md-8">Sauce tomate, mozzarella, jambon cuit, artichauts, champignons, olives noires, huile
+        d’olive</div>
+      <div class="col-md-2">12€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">4 FORMAGGI </div>
+      <div class="col-md-8">Gorgonzola, mozzarella, fontina, parmesan ou provolone piccante</div>
+      <div class="col-md-2">10€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">SOLE MIO </div>
+      <div class="col-md-8">Champignons, jambon, oeuf</div>
+      <div class="col-md-2">10€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">SICILIANA </div>
+      <div class="col-md-8">Câpres, olives, anchois</div>
+      <div class="col-md-2">12€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">NAPOLETANA </div>
+      <div class="col-md-8">Câpres, anchois</div>
+      <div class="col-md-2">10€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">NONA </div>
+      <div class="col-md-8">Jambon</div>
+      <div class="col-md-2">11€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">FORESTA </div>
+      <div class="col-md-8">Champignons, jambon</div>
+      <div class="col-md-2">12€</div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boldCard">TONNATA </div>
+      <div class="col-md-8">Thon, oignons rouges</div>
+      <div class="col-md-2">10€</div>
+    </div>
+  </div>
 
-        <p id="carte_vert">Sauce tomate, mozzarella, anchois, huile d’olive, origan</p>
-        <p>Sauce tomate, mozzarella, jambon cuit, artichauts, champignons, olives noires, huile d’olive</p>
-        <p id="carte_rouge">Gorgonzola, mozzarella, fontina, parmesan ou provolone piccante</p>
+  <div class="jumbotron">
+    <h1>Nos boissons</h1>
+  </div>
 
-        <p id="carte_vert">Champignons, jambon, oeuf</p>
-        <p>Câpres, olives, anchois</p>
-        <p id="carte_rouge">Câpres, anchois</p>
-
-        <p id="carte_vert">Jambon</p>
-        <p>Champignons, jambon</p>
-        <p id="carte_rouge">Thon, oignons rouges</p>
-
-        <p id="carte_vert">INGREDIENTS</p>
-        <p>INGREDIENTS</p>
-        <p id="carte_rouge">INGREDIENTS</p>
-
-        <p id="carte_vert">INGREDIENTS</p>
-        <p>INGREDIENTS</p>
-        <p id="carte_rouge">INGREDIENTS</p>
-
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Apéritifs / boissons alcoolisées</h3>
+        <div class="row">
+          <div class="col-md-6" id="boldCard">L'apéritif maison</div>
+          <div class="col-md-6">5,90€</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">Gin tonic</div>
+          <div class="col-md-6">5,90€</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">Campari orange/soda</div>
+          <div class="col-md-6">4,90€</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">Jupiler</div>
+          <div class="col-md-6">2,40€</div>
+        </div>
       </div>
-      <div class="col-xs-1 col-md-1">
-        <h2>€</h2>
-        <p id="carte_vert">11</p>
-        <p>12</p>
-        <p id="carte_rouge">10</p>
-        <p id="carte_vert">11</p>
-        <p>12</p>
-        <p id="carte_rouge">10</p>
-        <p id="carte_vert">11</p>
-        <p>12</p>
-        <p id="carte_rouge">10</p>
-        <p id="carte_vert">11</p>
-        <p>12</p>
-        <p id="carte_rouge">10</p>
-        <p id="carte_vert">11</p>
-        <p>12</p>
-        <p id="carte_rouge">10</p>
-        <p id="carte_vert">11</p>
-        <p>12</p>
-        <p id="carte_rouge">10</p>
-
+      <div class="col-md-6">
+        <h3>Soft / Soda</h3>
+        <div class="row">
+          <div class="col-md-6" id>Coca-cola</div>
+          <div class="col-md-6">2,40€</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">Coca light 1/5</div>
+          <div class="col-md-6">2,40€</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">Ice Tea</div>
+          <div class="col-md-6">2,40€</div>
+        </div>
       </div>
     </div>
 
+  </div>
 
 
-    <div class="jumbotron">
-      <h1>Nos boissons.</h1>
-    </div>
+  <footer>
+    <img src="img/goTop.png" alt="goTop" id="goTop" onclick="scrollFunction()">
+  </footer>
 
-
-    <div class="container" id="carte">
-      <div class="row">
-        <div class="col-xs-3 col-md-3">
-
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <h1>€</h1>
-        </div>
-        <div class="col-xs-3 col-md-3">
-
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <h1>€</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3 col-md-3">
-          Coca-Cola
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-        <div class="col-xs-3 col-md-3">
-          Fanta
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3 col-md-3">
-          Coca-Cola
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-        <div class="col-xs-3 col-md-3">
-          Fanta
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3 col-md-3">
-          Coca-Cola
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-        <div class="col-xs-3 col-md-3">
-          Fanta
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3 col-md-3">
-          Coca-Cola
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-        <div class="col-xs-3 col-md-3">
-          Fanta
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3 col-md-3">
-          Coca-Cola
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-        <div class="col-xs-3 col-md-3">
-          Fanta
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3 col-md-3">
-          Coca-Cola
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-        <div class="col-xs-3 col-md-3">
-          Fanta
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3 col-md-3">
-          Coca-Cola
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-        <div class="col-xs-3 col-md-3">
-          Fanta
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <span class="badge badge-light">2.50</span>
-        </div>
-      </div>
-
-    </div>
-
-
-    <footer>
-      <img src="img/goTop.png" alt="goTop" id="goTop" onclick="scrollFunction()">
-    </footer>
-
-    <script type="text/javascript">
-      function scrollFunction() {
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-          document.getElementById('goTop').style.display = "block";
-        } else {
-          document.getElementById('goTop').style.display = "none";
-        }
-      };
-      var prevScrollpos = window.pageYOffset;
-
-      window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("navbar").style.top = "0";
-        } else {
-          document.getElementById("navbar").style.top = "-50px";
-        }
-        prevScrollpos = currentScrollPos;
-        scrollFunction()
-      };
-
-      goTop.onclick = function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  <script type="text/javascript">
+    function scrollFunction() {
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        document.getElementById('goTop').style.display = "block";
+      } else {
+        document.getElementById('goTop').style.display = "none";
       }
-    </script>
+    };
+    var prevScrollpos = window.pageYOffset;
+
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+      scrollFunction()
+    };
+
+    goTop.onclick = function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
 
 </body>
 

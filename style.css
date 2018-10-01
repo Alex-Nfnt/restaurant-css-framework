@@ -124,3 +124,11 @@ h2 {
   margin: auto;
   text-align: center;
 }
+
+#boldCard{
+  font-weight: bold;
+}
+
+.row{
+  margin: 15px;
+}
