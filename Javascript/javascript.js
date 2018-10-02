@@ -29,3 +29,5 @@ pagin3.onclick = function() {
 function sendthis() {
   alert("Nous avons bien reçu votre message \nMerci à vous :) !");
 }
+
+

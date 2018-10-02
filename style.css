@@ -70,6 +70,7 @@ h2 {
   bottom: 15px;
   right: 15px;
   opacity: 0.7;
+  display:none;
 }
 
 #goTop:hover {
@@ -125,7 +126,7 @@ h2 {
   text-align: center;
 }
 
-#boldCard{
+#bold{
   font-weight: bold;
 }
 
