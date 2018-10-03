@@ -1,5 +1,3 @@
-
-
 let levelScroll = function () {
     if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
         document.getElementById('goTop').style.display = "block";
@@ -13,9 +11,9 @@ window.onscroll = function () {
     levelScroll();
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
+        document.getElementById("navbar").style.top = "0";
     } else {
-      document.getElementById("navbar").style.top = "-50px";
+        document.getElementById("navbar").style.top = "-50px";
     }
     prevScrollpos = currentScrollPos;
 };
@@ -31,5 +29,3 @@ goTop.addEventListener('click', function () {
         scrollTop: 0
     }, 750);
 });
-
-
