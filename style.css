@@ -140,5 +140,6 @@ iframe {
 }
 
 #btnContactUs{
-font-weight: bold;
+color: black;
+background-color: #82A4D6;
 }
