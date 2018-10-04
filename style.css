@@ -7,11 +7,11 @@ a:link {
 }
 
 #navbar a {
-  color: white;
+  color: black;
 }
 
 #navbar a:hover {
-  color: #82a4d6;
+  color: whitesmoke;
 }
 
 
