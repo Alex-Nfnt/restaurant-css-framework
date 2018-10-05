@@ -28,6 +28,13 @@ pagin3.onclick = function() {
 
 function sendthis() {
   alert("Nous avons bien reçu votre message \nMerci à vous :) !");
-}
+};
 
 
+function coockiesOK() {
+  document.getElementById("alertCoockies").style.display = "none";   
+};
+
+function coockiesKO() {
+  document.getElementById("alertCoockies").style.display = window.open("https://www.youtube.com/watch?v=2Z4m4lnjxkY"); 
+};
