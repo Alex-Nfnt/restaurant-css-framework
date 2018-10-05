@@ -14,12 +14,41 @@ J'étais en formation chez BeCode ! On avait un projet avec des consignes que t
 
 ## Mais à quoi ressemble ton site ? 
 De base je t'invite à cliquer sur ce lien https://alex-nfnt.github.io/restaurant-css-framework/index.html. Mais si t'as pas envie tu peux quand même jeté un œil à ce screenshot : 
+
+
 ![alt text](img/readme/siteView.png "WebSite")
 
 
+## La progression… C’est fini ? 
+Et oui ! Je pense que je vais m'arrêter là, peut être que je rajouterai une chose où l'autre, mais il n'y aura plus de gros changements.
 
+## Et qu’est-ce que ça contient ? 
+Ça contient du HTML, du CSS (avec Bootstrap) et un peu de Javascript.
 
+## Comment qu’on l’installe ? 
+Si vraiment t'as envie d'y toucher : git clone https://github.com/Alex-Nfnt/restaurant-css-framework.git et c'est à toi de jouer ! 
 
-Images : 
+## Au fait ... Le lighthouse ça donne quoi ?
+Et ben il est pas mal ! 
 
-- imgHome.jpg = https://unsplash.com/photos/imlD5dbcLM4
+### Page index : 
+![alt text](img/readme/pageIndex.png "Index")
+
+### Page photos : 
+![alt text](img/readme/pagePhotos.png "Index")
+
+### Page carte :
+![alt text](img/readme/pageCarte.png "Index")
+
+### Page restaurants :
+![alt text](img/readme/pageRestaurants.png "Index")
+
+### Page contact
+![alt text](img/readme/pageContact.png "Index")
+
+## Crédits 
+
+### Photos 
+
+### Code
+
