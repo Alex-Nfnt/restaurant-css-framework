@@ -31,19 +31,19 @@ Si vraiment t'as envie d'y toucher : git clone https://github.com/Alex-Nfnt/res
 ## Au fait ... Le lighthouse ça donne quoi ?
 Et ben il est pas mal ! 
 
-### Page index : 
+#### Page index : 
 ![alt text](img/readme/pageIndex.png "Index")
 
-### Page photos : 
+#### Page photos : 
 ![alt text](img/readme/pagePhotos.png "Index")
 
-### Page carte :
+#### Page carte :
 ![alt text](img/readme/pageCarte.png "Index")
 
-### Page restaurants :
+#### Page restaurants :
 ![alt text](img/readme/pageRestaurants.png "Index")
 
-### Page contact
+#### Page contact
 ![alt text](img/readme/pageContact.png "Index")
 
 ## Crédits 
