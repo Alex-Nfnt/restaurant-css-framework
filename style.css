@@ -122,8 +122,10 @@ h2 {
 
 .pagination button {
   margin-left: 10px;
-  background-color: black;
+  background-color: #82A4D6;
   color: white;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .merci {
@@ -160,6 +162,7 @@ background-color: #82A4D6;
   position: fixed;
   bottom: 0px;
   z-index: 9999;
+  width: 100%;
 }
 
 .coockies{
